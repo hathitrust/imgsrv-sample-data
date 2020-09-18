@@ -1,0 +1,1 @@
+Public domain sample data for imgsrv.

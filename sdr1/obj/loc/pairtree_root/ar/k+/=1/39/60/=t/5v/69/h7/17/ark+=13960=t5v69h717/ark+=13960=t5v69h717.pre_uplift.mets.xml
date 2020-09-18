@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<METS:mets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:METS="http://www.loc.gov/METS/" xmlns:PREMIS="info:lc/xmlns/premis-v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:HT="http://www.hathitrust.org/premis_extension" OBJID="loc.ark:/13960/t5v69h717" PROFILE="http://www.hathitrust.org/documents/hathitrust-mets-profile2.0.xml" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-0.xsd">
+  <METS:metsHdr ID="HDR1" CREATEDATE="2011-03-18T15:58:04" RECORDSTATUS="REV" LASTMODDATE="2013-02-28T22:04:54Z">
+    <METS:agent TYPE="ORGANIZATION" ROLE="CREATOR">
+      <METS:name>HathiTrust</METS:name>
+    </METS:agent>
+  </METS:metsHdr>
+  <METS:dmdSec ID="DMD1">
+    <METS:mdRef OTHERLOCTYPE="Item ID stored in HathiTrust Metadata Management System" LOCTYPE="OTHER" MDTYPE="MARC" XPTR="loc.ark:/13960/t5v69h717"/>
+  </METS:dmdSec>
+  <METS:amdSec ID="AMD1">
+    <METS:digiprovMD ID="premis1">
+      <METS:mdWrap MIMETYPE="text/xml" MDTYPE="PREMIS">
+        <METS:xmlData>
+          <PREMIS:premis version="2.0">
+            <PREMIS:object xsi:type="PREMIS:representation">
+              <PREMIS:objectIdentifier>
+                <PREMIS:objectIdentifierType>HathiTrust</PREMIS:objectIdentifierType>
+                <PREMIS:objectIdentifierValue>loc.ark:/13960/t5v69h717</PREMIS:objectIdentifierValue>
+              </PREMIS:objectIdentifier>
+              <PREMIS:significantProperties>
+                <PREMIS:significantPropertiesType>file count</PREMIS:significantPropertiesType>
+                <PREMIS:significantPropertiesValue>6</PREMIS:significantPropertiesValue>
+              </PREMIS:significantProperties>
+              <PREMIS:significantProperties>
+                <PREMIS:significantPropertiesType>page count</PREMIS:significantPropertiesType>
+                <PREMIS:significantPropertiesValue>2</PREMIS:significantPropertiesValue>
+              </PREMIS:significantProperties>
+            </PREMIS:object>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>368015c9-ff43-342c-9a21-eb7d42d09f7b</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>capture</PREMIS:eventType>
+              <PREMIS:eventDateTime>2008-04-29T14:50:53Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Initial capture of item</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>CaSfIA</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>scribe8.capitolhill.archive.org
+</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>image capture</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>8ebc9611-54c5-3f9e-ad2a-4aaec8cc9b36</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>package inspection</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:56:46Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Inspection of download package for missing files</PREMIS:eventDetail>
+              <PREMIS:eventOutcomeInformation>
+                <PREMIS:eventOutcome>warning</PREMIS:eventOutcome>
+                <PREMIS:eventOutcomeDetail>
+                  <PREMIS:eventOutcomeDetailNote>files missing</PREMIS:eventOutcomeDetailNote>
+                  <PREMIS:eventOutcomeDetailExtension>
+                    <HT:fileList status="missing">
+                      <HT:file>baileydelord00unit_scanfactors.xml</HT:file>
+                    </HT:fileList>
+                  </PREMIS:eventOutcomeDetailExtension>
+                </PREMIS:eventOutcomeDetail>
+              </PREMIS:eventOutcomeInformation>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>feedd.pl git rev afa62ada8e94a774ff010416aeb5ce40595dd9dc</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>a5b6e474-63f1-32c8-82b9-38c1436a0812</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>ocr split</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:57:04Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Splitting of IA XML OCR into one plain text OCR file and one XML file (with coordinates) per page</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>feedd.pl git rev afa62ada8e94a774ff010416aeb5ce40595dd9dc</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>40b91219-9d07-3d94-a2ff-9ebdea5d2663</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>message digest calculation</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:57:07Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Calculation of MD5 checksums for image and OCR files</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>Digest::MD5 2.36</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>21835841-bd1e-3b1e-8764-43c1252827da</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>source mets creation</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:57:07Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Creation of source METS file</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>feedd.pl git rev afa62ada8e94a774ff010416aeb5ce40595dd9dc</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>2d378ed5-7607-3382-bc42-d652e793110f</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>image header modification</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:57:07Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Modification of image headers to meet HathiTrust conventions</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>feedd.pl git rev afa62ada8e94a774ff010416aeb5ce40595dd9dc</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>Image::ExifTool 8.13</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>c2396df2-33e1-3d71-a13c-bb8613e9d6b6</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>file rename</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:57:07Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>File renaming to HathiTrust conventions</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>feedd.pl git rev afa62ada8e94a774ff010416aeb5ce40595dd9dc</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>c22bdc54-5f20-32ca-89c2-791efc20e682</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>fixity check</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:57:56Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Validation of MD5 checksums for image and OCR files</PREMIS:eventDetail>
+              <PREMIS:eventOutcomeInformation>
+                <PREMIS:eventOutcome>pass</PREMIS:eventOutcome>
+              </PREMIS:eventOutcomeInformation>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>Digest::MD5 2.36</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>b8f06289-29ef-3e76-86ac-61444e543560</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>validation</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:57:57Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Validation of technical characteristics of image and OCR files</PREMIS:eventDetail>
+              <PREMIS:eventOutcomeInformation>
+                <PREMIS:eventOutcome>pass</PREMIS:eventOutcome>
+              </PREMIS:eventOutcomeInformation>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>feedd.pl git rev afa62ada8e94a774ff010416aeb5ce40595dd9dc</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>jhove 1.5</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>xerces-c 3.1.0</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>e69e9c35-d373-3b4f-a8a9-241ba24259b8</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>zip archive creation</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:58:03Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Compression of content files and source METS into zip archive</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>zip 3.0</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>5b0d4a59-2243-3f43-8a9b-9a57d9471226</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>zip file message digest calculation</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:58:04Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Calculation of md5 checksum for zip archive</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>Digest::MD5 2.36</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>389156f5-75e4-333b-a508-5902a6248400</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>ingestion</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:58:04Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Ingestion of object package into repository</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>feedd.pl git rev afa62ada8e94a774ff010416aeb5ce40595dd9dc</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>a9c5a337-c0dd-382c-be45-bce8f0f989b7</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>page feature mapping</PREMIS:eventType>
+              <PREMIS:eventDateTime>2011-03-18T19:58:04Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Mapping of original page feature tags to HathiTrust tags</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>feedd.pl git rev afa62ada8e94a774ff010416aeb5ce40595dd9dc</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>6f1def56-3625-3c19-98ec-ccef4bff577f</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>mets migration</PREMIS:eventType>
+              <PREMIS:eventDateTime>2013-02-28T22:04:51Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Migration of METS to new HathiTrust METS profile version</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>feedd.pl 0.14.6</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+            <PREMIS:event>
+              <PREMIS:eventIdentifier>
+                <PREMIS:eventIdentifierType>UUID</PREMIS:eventIdentifierType>
+                <PREMIS:eventIdentifierValue>b72bb86b-e86c-32d4-83ec-9e3c8c9cd422</PREMIS:eventIdentifierValue>
+              </PREMIS:eventIdentifier>
+              <PREMIS:eventType>premis migration</PREMIS:eventType>
+              <PREMIS:eventDateTime>2013-02-28T22:04:55Z</PREMIS:eventDateTime>
+              <PREMIS:eventDetail>Migration of PREMIS metadata to new version</PREMIS:eventDetail>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>MARC21 Code</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>MiU</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>Executor</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+              <PREMIS:linkingAgentIdentifier>
+                <PREMIS:linkingAgentIdentifierType>tool</PREMIS:linkingAgentIdentifierType>
+                <PREMIS:linkingAgentIdentifierValue>feedd.pl 0.14.6</PREMIS:linkingAgentIdentifierValue>
+                <PREMIS:linkingAgentRole>software</PREMIS:linkingAgentRole>
+              </PREMIS:linkingAgentIdentifier>
+            </PREMIS:event>
+          </PREMIS:premis>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+  </METS:amdSec>
+  <METS:fileSec>
+    <METS:fileGrp ID="FG1" USE="zip archive">
+      <METS:file SIZE="615913" ID="ZIP00000001" MIMETYPE="application/zip" CREATED="2011-03-18T19:58:40Z" CHECKSUM="2e318b41b3b09aace940d7c439dbb422" SEQ="00000001" CHECKSUMTYPE="MD5">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="ark+=13960=t5v69h717.zip"/>
+      </METS:file>
+    </METS:fileGrp>
+    <METS:fileGrp ID="FG2" USE="source METS">
+      <METS:file SIZE="27592" ID="METS00000001" MIMETYPE="text/xml" CREATED="2011-03-18T19:57:55Z" CHECKSUM="6292cae3b897d1b81979f2ab31320aaf" SEQ="00000001" CHECKSUMTYPE="MD5">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="IA_ark+=13960=t5v69h717.xml"/>
+      </METS:file>
+    </METS:fileGrp>
+    <METS:fileGrp ID="FG3" USE="coordOCR">
+      <METS:file SIZE="23306" ID="XML00000001" MIMETYPE="text/xml" CREATED="2011-03-18T19:57:04Z" CHECKSUM="abf36308d23cfacf303aa06d309b0f10" SEQ="00000001" CHECKSUMTYPE="MD5">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00000001.xml"/>
+      </METS:file>
+      <METS:file SIZE="12793" ID="XML00000002" MIMETYPE="text/xml" CREATED="2011-03-18T19:57:04Z" CHECKSUM="092e92a165d473bd321de7911764b603" SEQ="00000002" CHECKSUMTYPE="MD5">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00000002.xml"/>
+      </METS:file>
+    </METS:fileGrp>
+    <METS:fileGrp ID="FG4" USE="ocr">
+      <METS:file SIZE="2527" ID="OCR00000001" MIMETYPE="text/plain" CREATED="2011-03-18T19:57:04Z" CHECKSUM="e8b7a794730aee0a81163fccb6f73662" SEQ="00000001" CHECKSUMTYPE="MD5">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00000001.txt"/>
+      </METS:file>
+      <METS:file SIZE="1468" ID="OCR00000002" MIMETYPE="text/plain" CREATED="2011-03-18T19:57:04Z" CHECKSUM="e786e2e04227b8678502fd197535e745" SEQ="00000002" CHECKSUMTYPE="MD5">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00000002.txt"/>
+      </METS:file>
+    </METS:fileGrp>
+    <METS:fileGrp ID="FG5" USE="image">
+      <METS:file SIZE="407495" ID="IMG00000001" MIMETYPE="image/jp2" CREATED="2011-03-18T19:57:07Z" CHECKSUM="83606238050c1f34065c0aab7e3ff9ee" SEQ="00000001" CHECKSUMTYPE="MD5">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00000001.jp2"/>
+      </METS:file>
+      <METS:file SIZE="190126" ID="IMG00000002" MIMETYPE="image/jp2" CREATED="2011-03-18T19:57:07Z" CHECKSUM="5defe6fd348bc2a19124d6ac5f8bb6a0" SEQ="00000002" CHECKSUMTYPE="MD5">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00000002.jp2"/>
+      </METS:file>
+    </METS:fileGrp>
+  </METS:fileSec>
+  <METS:structMap ID="SM1" TYPE="physical">
+    <METS:div TYPE="volume">
+      <METS:div ORDER="1" LABEL="RIGHT, COVER" TYPE="page" ORDERLABEL="1">
+        <METS:fptr FILEID="XML00000001"/>
+        <METS:fptr FILEID="OCR00000001"/>
+        <METS:fptr FILEID="IMG00000001"/>
+      </METS:div>
+      <METS:div ORDER="2" LABEL="LEFT, COVER" TYPE="page" ORDERLABEL="2">
+        <METS:fptr FILEID="XML00000002"/>
+        <METS:fptr FILEID="OCR00000002"/>
+        <METS:fptr FILEID="IMG00000002"/>
+      </METS:div>
+    </METS:div>
+  </METS:structMap>
+</METS:mets>
