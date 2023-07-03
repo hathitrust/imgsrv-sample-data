@@ -1,0 +1,14 @@
+[
+  {
+    "method": "user_is_print_disabled_proxy",
+    "role": "enhancedTextProxy",
+    "label": "ATRS",
+    "enabled": 1
+  },
+  {
+    "method": "user_has_total_access",
+    "role": "totalAccess",
+    "label": "Admin",
+    "enabled": 1
+  }
+]
