@@ -10,5 +10,11 @@
     "role": "totalAccess",
     "label": "Admin",
     "enabled": 1
+  },
+  {
+    "method": "user_is_resource_sharing_user",
+    "role": "resourceSharing",
+    "label": "Resource Sharing",
+    "enabled": 1
   }
 ]
